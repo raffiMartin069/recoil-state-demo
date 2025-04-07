@@ -5,8 +5,8 @@ const filteredVisibilityState = selector({
     key: "filteredVisibilityState",
     get: ({get}) => {
         const visibility = get(checkBoxState);
-        return visibility;
+        return visibility ? "Enter a secret!!" : "Your secret has been exposed!!";
     }
 })
 
-export default { filteredVisibilityState };
+export default filteredVisibilityState;

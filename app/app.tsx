@@ -2,11 +2,12 @@ import { View, Text, StyleSheet } from 'react-native'
 import CustomInput from "./input";
 import { RecoilRoot, useRecoilValue } from "recoil";
 import checkBoxState from './state';
+import filteredVisibilityState from './selector';
 
 const App = () => {
 
     const visibility = useRecoilValue(checkBoxState)
-
+    console.log("Visibility: ", visibility)
   return (
         <View
           style={styles.parent}>
