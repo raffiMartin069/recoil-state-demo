@@ -37,20 +37,23 @@ recoil-state-demo/
 ├── public/
 │   ├── index.html
 │   └── ...
-├── src/
-│   ├── components/
-│   │   ├── InputField.tsx
-│   │   ├── ToggleCheckbox.tsx
-│   │   └── ...
-│   ├── store/
-│   │   ├── visibilityState.ts
-│   │   └── ...
-│   ├── App.tsx
+├── assets/
+│   ├── fonts/
+│   └── images/
+├── app/
+│   ├── _layout.tsx
+│   ├── app.tsx
+│   ├── checkbox.tsx
 │   ├── index.tsx
-│   └── ...
+│   ├── input.tsx
+│   ├── selector.ts
+│   └── state.ts
 ├── .gitignore
-├── package.json
 ├── README.md
+├── app.json
+├── package-lock.json
+├── package.json
 └── tsconfig.json
+```
 
 This project was created by **Raffa**.
